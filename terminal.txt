@@ -12,3 +12,5 @@ brew install node
 brew install awscli
 
 brew install pulumi
+
+brew install --cask rider
