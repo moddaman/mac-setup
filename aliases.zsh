@@ -1,0 +1,6 @@
+alias gco='git checkout'
+alias g='git'
+alias beta='aws sso login --profile easee-beta && export AWS_PROFILE=easee-beta && pulumi stack select easee/beta && eval $(aws-sso-creds export)'
+alias prod='aws sso login --profile easee-prod && export AWS_PROFILE=easee-prod && pulumi stack select easee/production && eval $(aws-sso-creds export)'
+alias localstack='aws sso login --profile localstack && export AWS_PROFILE=localstackd && eval $(aws-sso-creds export)'
+alias reload='source ~/.zshrc'
