@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>FindLostChargers</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="DistinctMidsHistorian010621.csv" />
+      <Content Include="DistinctMidsHistorian010621.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="AllCharger.csv" />
+        <Content Include="AllCharger.csv">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="ChargersWithoutHistorianData.csv" />
+        <Content Include="ChargersWithoutHistorianData.csv">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="GetAlldevicesWIthMetadata-1622708872019.json" />
+        <Content Include="GetAlldevicesWIthMetadata-1622708872019.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+
+</Project>

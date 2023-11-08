@@ -1,0 +1,280 @@
+{
+  "topicFilter": "EHQ3M3KU/#",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/22/638348638401518745",
+      "timestamp": 1699267040250,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "22"
+        },
+        "Timestamp": "2023-11-06T10:37:20.1518745+00:00",
+        "ExpiresAt": "2023-11-06T10:42:20.1518745+00:00",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "2"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "3"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "4"
+            },
+            "Value": "2"
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/22/638348638102351256",
+      "timestamp": 1699267010329,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "22"
+        },
+        "Timestamp": "2023-11-06T10:36:50.2351256+00:00",
+        "ExpiresAt": "2023-11-06T10:41:50.2351257+00:00",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "2"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "3"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "4"
+            },
+            "Value": "2"
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "string",
+      "topic": "EHQ3M3KU/OP/cos",
+      "timestamp": 1699266997210,
+      "payload": "\u0001 \u0000\u0001eH��\u0000\u00040�Ch��0�Ca��0�Ci�/@�\u0000\u0000\u0000\u0010",
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/2/638348637900801980",
+      "timestamp": 1699266990992,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "2"
+        },
+        "Timestamp": "2023-11-06T10:36:30.080198Z",
+        "ExpiresAt": "2023-11-06T11:36:29.000000Z",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "80"
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/22/638348637801808522",
+      "timestamp": 1699266980319,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "22"
+        },
+        "Timestamp": "2023-11-06T10:36:20.1808522+00:00",
+        "ExpiresAt": "2023-11-06T10:41:20.1808523+00:00",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "2"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "3"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "4"
+            },
+            "Value": "2"
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/CR/2/638348637688690020",
+      "timestamp": 1699266972172,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "2"
+        },
+        "Timestamp": "2023-11-06T10:36:08.781466Z",
+        "WasAccepted": true,
+        "DeliveredAt": "2023-11-06T10:36:11.300Z"
+      },
+      "qos": 0
+    },
+    {
+      "format": "string",
+      "topic": "EHQ3M3KU/OP/cos",
+      "timestamp": 1699266972164,
+      "payload": "\u0001 \u0000\u0001eH��\u0000\u0001@P\u0000\u0000\u00016",
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/2/638348637688690020",
+      "timestamp": 1699266970952,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "1"
+        },
+        "Timestamp": "2023-11-06T10:36:08.781466Z",
+        "ExpiresAt": "2023-11-06T10:51:08.781466Z",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "80"
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/22/638348637501478156",
+      "timestamp": 1699266950246,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "22"
+        },
+        "Timestamp": "2023-11-06T10:35:50.1478156+00:00",
+        "ExpiresAt": "2023-11-06T10:40:50.1478157+00:00",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "2"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "3"
+            },
+            "Value": "10"
+          },
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "4"
+            },
+            "Value": "2"
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "EHQ3M3KU/C/2/638348637441654310",
+      "timestamp": 1699266944978,
+      "payload": {
+        "Id": {
+          "isLosslessNumber": true,
+          "value": "2"
+        },
+        "Timestamp": "2023-11-06T10:35:44.165431Z",
+        "ExpiresAt": "2023-11-06T10:40:43.000000Z",
+        "Arguments": [
+          {
+            "Id": {
+              "isLosslessNumber": true,
+              "value": "1"
+            },
+            "Value": "80"
+          }
+        ]
+      },
+      "qos": 0
+    }
+  ]
+}

@@ -1,0 +1,877 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Amazon.Extensions.Configuration.SystemsManager/5.0.2": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.AppConfigData": "3.7.0.23",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.1",
+          "AWSSDK.SimpleSystemsManagement": "3.7.12.9",
+          "Microsoft.Extensions.Configuration": "2.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Amazon.Extensions.Configuration.SystemsManager.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Extensions.Configuration.SystemsManager.dll": {}
+        }
+      },
+      "AWSSDK.AppConfigData/3.7.0.23": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.7, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.AppConfigData.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.AppConfigData.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.106.5": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.1": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.43",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "AWSSDK.IoT/3.7.105.15": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.106.5, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.IoT.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.IoT.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.IotData/3.7.101.75": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.106.5, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.IotData.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.IotData.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Kinesis/3.7.102.35": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.106.5, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Kinesis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Kinesis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.SimpleSystemsManagement/3.7.12.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.7, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.SSO/3.7.100.98": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.106.5, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.SSOOIDC/3.7.100.98": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.106.5, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Easee.Cos/2.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Easee.IoT.DataTypes": "2.2.0"
+        },
+        "compile": {
+          "lib/net6.0/Cos.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Cos.dll": {}
+        }
+      },
+      "Easee.IoT.DataTypes/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Easee.IoT.DataTypes.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Easee.IoT.DataTypes.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Extensions.Configuration.SystemsManager/5.0.2": {
+      "sha512": "W1Va+vjiw2lcjw+s4JM+IjULG0naCZe0+dkc/du/SYAh0xIRngBGuVOLxao7TxiTlgQLrXfvjIkMclOoze8LHw==",
+      "type": "package",
+      "path": "amazon.extensions.configuration.systemsmanager/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "amazon.extensions.configuration.systemsmanager.5.0.2.nupkg.sha512",
+        "amazon.extensions.configuration.systemsmanager.nuspec",
+        "icon.png",
+        "lib/net6.0/Amazon.Extensions.Configuration.SystemsManager.dll",
+        "lib/netcoreapp3.1/Amazon.Extensions.Configuration.SystemsManager.dll"
+      ]
+    },
+    "AWSSDK.AppConfigData/3.7.0.23": {
+      "sha512": "uHQycPmRkvtsa8k74zVChOKSavaPJWpvSPzYbeCoqIt79glRAhZXshtcEi4Dq6O4rLVnQQgEdv2tSA/Gs6WfWg==",
+      "type": "package",
+      "path": "awssdk.appconfigdata/3.7.0.23",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.AppConfigData.CodeAnalysis.dll",
+        "awssdk.appconfigdata.3.7.0.23.nupkg.sha512",
+        "awssdk.appconfigdata.nuspec",
+        "lib/net35/AWSSDK.AppConfigData.dll",
+        "lib/net35/AWSSDK.AppConfigData.pdb",
+        "lib/net35/AWSSDK.AppConfigData.xml",
+        "lib/net45/AWSSDK.AppConfigData.dll",
+        "lib/net45/AWSSDK.AppConfigData.pdb",
+        "lib/net45/AWSSDK.AppConfigData.xml",
+        "lib/netcoreapp3.1/AWSSDK.AppConfigData.dll",
+        "lib/netcoreapp3.1/AWSSDK.AppConfigData.pdb",
+        "lib/netcoreapp3.1/AWSSDK.AppConfigData.xml",
+        "lib/netstandard2.0/AWSSDK.AppConfigData.dll",
+        "lib/netstandard2.0/AWSSDK.AppConfigData.pdb",
+        "lib/netstandard2.0/AWSSDK.AppConfigData.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Core/3.7.106.5": {
+      "sha512": "Ko+ZIM9HVtisWy6v+sNDmTGfSsMgQT2KxtYHLa3ztpEiN7ta9BiuBmgiNAc1BPSu3xMs4NsBBdt+qMrMKfUB/A==",
+      "type": "package",
+      "path": "awssdk.core/3.7.106.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.106.5.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.1": {
+      "sha512": "cm7D75uispA3h/WwMEQVBMmFPPFwRvFQz8fyLwJEB9uqWYfTOMrRTcynMxHnrdoMyQnfCjByRTzHuFgWELmB6Q==",
+      "type": "package",
+      "path": "awssdk.extensions.netcore.setup/3.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
+        "awssdk.extensions.netcore.setup.nuspec",
+        "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll",
+        "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.pdb"
+      ]
+    },
+    "AWSSDK.IoT/3.7.105.15": {
+      "sha512": "m3mFlb5DqFNg2oMoGlcNW19UIfA3xtFtZmyAvYPlc+L9F6GdScftDa8dpLxdxVj+WbabHT4hVTqzmB05iqOR0w==",
+      "type": "package",
+      "path": "awssdk.iot/3.7.105.15",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.IoT.CodeAnalysis.dll",
+        "awssdk.iot.3.7.105.15.nupkg.sha512",
+        "awssdk.iot.nuspec",
+        "lib/net35/AWSSDK.IoT.dll",
+        "lib/net35/AWSSDK.IoT.pdb",
+        "lib/net35/AWSSDK.IoT.xml",
+        "lib/net45/AWSSDK.IoT.dll",
+        "lib/net45/AWSSDK.IoT.pdb",
+        "lib/net45/AWSSDK.IoT.xml",
+        "lib/netcoreapp3.1/AWSSDK.IoT.dll",
+        "lib/netcoreapp3.1/AWSSDK.IoT.pdb",
+        "lib/netcoreapp3.1/AWSSDK.IoT.xml",
+        "lib/netstandard2.0/AWSSDK.IoT.dll",
+        "lib/netstandard2.0/AWSSDK.IoT.pdb",
+        "lib/netstandard2.0/AWSSDK.IoT.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.IotData/3.7.101.75": {
+      "sha512": "uIP/g+VQ8MFYp12n/q9hQmze0+8NOlG9isIra9FiAvSegeDHtRCBWcFVPI89mdyB4LsYE9tvndaUb7YEr1uPxA==",
+      "type": "package",
+      "path": "awssdk.iotdata/3.7.101.75",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.IotData.CodeAnalysis.dll",
+        "awssdk.iotdata.3.7.101.75.nupkg.sha512",
+        "awssdk.iotdata.nuspec",
+        "lib/net35/AWSSDK.IotData.dll",
+        "lib/net35/AWSSDK.IotData.pdb",
+        "lib/net35/AWSSDK.IotData.xml",
+        "lib/net45/AWSSDK.IotData.dll",
+        "lib/net45/AWSSDK.IotData.pdb",
+        "lib/net45/AWSSDK.IotData.xml",
+        "lib/netcoreapp3.1/AWSSDK.IotData.dll",
+        "lib/netcoreapp3.1/AWSSDK.IotData.pdb",
+        "lib/netcoreapp3.1/AWSSDK.IotData.xml",
+        "lib/netstandard2.0/AWSSDK.IotData.dll",
+        "lib/netstandard2.0/AWSSDK.IotData.pdb",
+        "lib/netstandard2.0/AWSSDK.IotData.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Kinesis/3.7.102.35": {
+      "sha512": "IpBniJZd5hpV9GfApxG6QR7wCF5cdoao986mmuDA9+s5umJCb9E35PwJrtrzXkHy8PnKYZznw1F7Ng5rIV6pjA==",
+      "type": "package",
+      "path": "awssdk.kinesis/3.7.102.35",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Kinesis.CodeAnalysis.dll",
+        "awssdk.kinesis.3.7.102.35.nupkg.sha512",
+        "awssdk.kinesis.nuspec",
+        "lib/net35/AWSSDK.Kinesis.dll",
+        "lib/net35/AWSSDK.Kinesis.pdb",
+        "lib/net35/AWSSDK.Kinesis.xml",
+        "lib/net45/AWSSDK.Kinesis.dll",
+        "lib/net45/AWSSDK.Kinesis.pdb",
+        "lib/net45/AWSSDK.Kinesis.xml",
+        "lib/netcoreapp3.1/AWSSDK.Kinesis.dll",
+        "lib/netcoreapp3.1/AWSSDK.Kinesis.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Kinesis.xml",
+        "lib/netstandard2.0/AWSSDK.Kinesis.dll",
+        "lib/netstandard2.0/AWSSDK.Kinesis.pdb",
+        "lib/netstandard2.0/AWSSDK.Kinesis.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SimpleSystemsManagement/3.7.12.9": {
+      "sha512": "0VXvlLPUigbBaGNbuNOLUroQeeM4vV9LZORlLGnJuTJywUT5sVOuG7JKUN4xAtJlbdbXV0cTRxsIGc+3/WJWzg==",
+      "type": "package",
+      "path": "awssdk.simplesystemsmanagement/3.7.12.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SimpleSystemsManagement.CodeAnalysis.dll",
+        "awssdk.simplesystemsmanagement.3.7.12.9.nupkg.sha512",
+        "awssdk.simplesystemsmanagement.nuspec",
+        "lib/net35/AWSSDK.SimpleSystemsManagement.dll",
+        "lib/net35/AWSSDK.SimpleSystemsManagement.pdb",
+        "lib/net35/AWSSDK.SimpleSystemsManagement.xml",
+        "lib/net45/AWSSDK.SimpleSystemsManagement.dll",
+        "lib/net45/AWSSDK.SimpleSystemsManagement.pdb",
+        "lib/net45/AWSSDK.SimpleSystemsManagement.xml",
+        "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.dll",
+        "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.xml",
+        "lib/netstandard2.0/AWSSDK.SimpleSystemsManagement.dll",
+        "lib/netstandard2.0/AWSSDK.SimpleSystemsManagement.pdb",
+        "lib/netstandard2.0/AWSSDK.SimpleSystemsManagement.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SSO/3.7.100.98": {
+      "sha512": "N9OkWIXmDiC62z6JgJTqA0GsxzesuIfcktMPJb0WQGNBf/A+Juzy1+t2L1jFFb4l5tDUgeNviCD5rAj7em7MYg==",
+      "type": "package",
+      "path": "awssdk.sso/3.7.100.98",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SSO.CodeAnalysis.dll",
+        "awssdk.sso.3.7.100.98.nupkg.sha512",
+        "awssdk.sso.nuspec",
+        "lib/net35/AWSSDK.SSO.dll",
+        "lib/net35/AWSSDK.SSO.pdb",
+        "lib/net35/AWSSDK.SSO.xml",
+        "lib/net45/AWSSDK.SSO.dll",
+        "lib/net45/AWSSDK.SSO.pdb",
+        "lib/net45/AWSSDK.SSO.xml",
+        "lib/netcoreapp3.1/AWSSDK.SSO.dll",
+        "lib/netcoreapp3.1/AWSSDK.SSO.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SSO.xml",
+        "lib/netstandard2.0/AWSSDK.SSO.dll",
+        "lib/netstandard2.0/AWSSDK.SSO.pdb",
+        "lib/netstandard2.0/AWSSDK.SSO.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SSOOIDC/3.7.100.98": {
+      "sha512": "ldtWxErX6rX0NUOZXSKZhgzG7l0Jlce4MaryE2EMvpw6l2mATICJ3ej8PJl1rUfPUSDgNASQbAab6Jj9e+re4A==",
+      "type": "package",
+      "path": "awssdk.ssooidc/3.7.100.98",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SSOOIDC.CodeAnalysis.dll",
+        "awssdk.ssooidc.3.7.100.98.nupkg.sha512",
+        "awssdk.ssooidc.nuspec",
+        "lib/net35/AWSSDK.SSOOIDC.dll",
+        "lib/net35/AWSSDK.SSOOIDC.pdb",
+        "lib/net35/AWSSDK.SSOOIDC.xml",
+        "lib/net45/AWSSDK.SSOOIDC.dll",
+        "lib/net45/AWSSDK.SSOOIDC.pdb",
+        "lib/net45/AWSSDK.SSOOIDC.xml",
+        "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll",
+        "lib/netcoreapp3.1/AWSSDK.SSOOIDC.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SSOOIDC.xml",
+        "lib/netstandard2.0/AWSSDK.SSOOIDC.dll",
+        "lib/netstandard2.0/AWSSDK.SSOOIDC.pdb",
+        "lib/netstandard2.0/AWSSDK.SSOOIDC.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Easee.Cos/2.6.2": {
+      "sha512": "79zyBDOR5RA7PL8Tv/fcmwAJwICU6yE/7UZxtavwZQA6UDk6IqW/8VjwlXEPDK9Ir/1rJCs2fDaE63EFWoV8mQ==",
+      "type": "package",
+      "path": "easee.cos/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        "easee.cos.2.6.2.nupkg.sha512",
+        "easee.cos.nuspec",
+        "lib/net6.0/Cos.dll"
+      ]
+    },
+    "Easee.IoT.DataTypes/2.5.0": {
+      "sha512": "9SvkgaLngtWzyRMxLzRFyMBwXZyJSWAy2wF5DXeuWhkRM1fPMZdhn+SCsKtQK9iSqzfeT1aZ76s3dNpjKbCUrQ==",
+      "type": "package",
+      "path": "easee.iot.datatypes/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        "easee.iot.datatypes.2.5.0.nupkg.sha512",
+        "easee.iot.datatypes.nuspec",
+        "lib/net5.0/Easee.IoT.DataTypes.dll"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/2.0.2": {
+      "sha512": "L51zGiDlJ4dPpKhFnP6grn2AQlZix9SvyEJ+HO7j/C2lyGA+cd6aDLqJTUhbXZGZ9zaa11eHvz14zG9HV24DRA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.2.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+      "sha512": "ZIuzorFmrbHqS8xucmLDFl4JtdaexHTpyS0+tdm6pRAB7dLp6ERQloGeUwuREBoz/ciW/Su21mgISCtXH+j1Eg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "sha512": "6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/7.0.0": {
+      "sha512": "OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+      "type": "package",
+      "path": "system.text.encodings.web/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/net7.0/System.Text.Encodings.Web.dll",
+        "lib/net7.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.7.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/7.0.1": {
+      "sha512": "OtDEmCCiNl8JAduFKZ/r0Sw6XZNHwIicUYy/mXgMDGeOsZLshH37qi3oPRzFYiryVktiMoQLByMGPtRCEMYbeQ==",
+      "type": "package",
+      "path": "system.text.json/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/net461/System.Text.Json.targets",
+        "buildTransitive/net462/System.Text.Json.targets",
+        "buildTransitive/net6.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net462/System.Text.Json.dll",
+        "lib/net462/System.Text.Json.xml",
+        "lib/net6.0/System.Text.Json.dll",
+        "lib/net6.0/System.Text.Json.xml",
+        "lib/net7.0/System.Text.Json.dll",
+        "lib/net7.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.7.0.1.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AWSSDK.Iot >= 3.7.105.15",
+      "AWSSDK.IotData >= 3.7.101.75",
+      "AWSSDK.Kinesis >= 3.7.102.35",
+      "AWSSDK.SSO >= 3.7.100.98",
+      "AWSSDK.SSOOIDC >= 3.7.100.98",
+      "Amazon.Extensions.Configuration.SystemsManager >= 5.0.2",
+      "Easee.Cos >= 2.6.2",
+      "Easee.IoT.DataTypes >= 2.5.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mortenovrebo/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalObservationSender/LocalObservationSender.csproj",
+      "projectName": "LocalObservationSender",
+      "projectPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalObservationSender/LocalObservationSender.csproj",
+      "packagesPath": "/Users/mortenovrebo/.nuget/packages/",
+      "outputPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalObservationSender/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mortenovrebo/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/easee/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "AWSSDK.Iot": {
+            "target": "Package",
+            "version": "[3.7.105.15, )"
+          },
+          "AWSSDK.IotData": {
+            "target": "Package",
+            "version": "[3.7.101.75, )"
+          },
+          "AWSSDK.Kinesis": {
+            "target": "Package",
+            "version": "[3.7.102.35, )"
+          },
+          "AWSSDK.SSO": {
+            "target": "Package",
+            "version": "[3.7.100.98, )"
+          },
+          "AWSSDK.SSOOIDC": {
+            "target": "Package",
+            "version": "[3.7.100.98, )"
+          },
+          "Amazon.Extensions.Configuration.SystemsManager": {
+            "target": "Package",
+            "version": "[5.0.2, )"
+          },
+          "Easee.Cos": {
+            "target": "Package",
+            "version": "[2.6.2, )"
+          },
+          "Easee.IoT.DataTypes": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "op8p8Q6Ed98dQ3sljhYcAHZjwMaQSuW1iprKKVGXs5VDDFx266xADF1IMju2V8adNxeDNwrY/ebHEq8Z7yjixg==",
+  "success": true,
+  "projectFilePath": "/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/SimpleQueryObservations/SimpleQueryObservations.csproj",
+  "expectedPackageFiles": [
+    "/Users/mortenovrebo/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

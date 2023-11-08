@@ -1,0 +1,15 @@
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/bin/Debug/net7.0/Ticks
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/bin/Debug/net7.0/Ticks.deps.json
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/bin/Debug/net7.0/Ticks.runtimeconfig.json
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/bin/Debug/net7.0/Ticks.dll
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/bin/Debug/net7.0/Ticks.pdb
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.csproj.AssemblyReference.cache
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.AssemblyInfoInputs.cache
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.AssemblyInfo.cs
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.csproj.CoreCompileInputs.cache
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.dll
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/refint/Ticks.dll
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.pdb
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/Ticks.genruntimeconfig.cache
+/Users/mortenovrebo/easee/Moddascripts/Ticks/Ticks/obj/Debug/net7.0/ref/Ticks.dll

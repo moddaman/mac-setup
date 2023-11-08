@@ -1,0 +1,16 @@
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/PartnerCharger.csv
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/TibberCompare.deps.json
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/TibberCompare.runtimeconfig.json
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/TibberCompare.runtimeconfig.dev.json
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/TibberCompare.dll
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/ref/TibberCompare.dll
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/TibberCompare.pdb
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.csprojAssemblyReference.cache
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.AssemblyInfoInputs.cache
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.AssemblyInfo.cs
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.csproj.CoreCompileInputs.cache
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.dll
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/ref/TibberCompare.dll
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.pdb
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/obj/Debug/net5.0/TibberCompare.genruntimeconfig.cache

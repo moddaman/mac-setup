@@ -1,0 +1,15 @@
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/bin/Debug/net7.0/DateTimeToEpoch
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/bin/Debug/net7.0/DateTimeToEpoch.deps.json
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/bin/Debug/net7.0/DateTimeToEpoch.runtimeconfig.json
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/bin/Debug/net7.0/DateTimeToEpoch.dll
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/bin/Debug/net7.0/DateTimeToEpoch.pdb
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.csproj.AssemblyReference.cache
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.AssemblyInfoInputs.cache
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.AssemblyInfo.cs
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.csproj.CoreCompileInputs.cache
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.dll
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/refint/DateTimeToEpoch.dll
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.pdb
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/DateTimeToEpoch.genruntimeconfig.cache
+/Users/mortenovrebo/easee/Moddascripts/DateTimeToEpoch/DateTimeToEpoch/obj/Debug/net7.0/ref/DateTimeToEpoch.dll

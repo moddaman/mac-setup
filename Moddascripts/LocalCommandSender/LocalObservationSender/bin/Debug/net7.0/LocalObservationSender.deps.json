@@ -1,0 +1,370 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "LocalObservationSender/1.0.0": {
+        "dependencies": {
+          "AWSSDK.IoT": "3.7.105.15",
+          "AWSSDK.IotData": "3.7.101.75",
+          "AWSSDK.Kinesis": "3.7.102.35",
+          "AWSSDK.SSO": "3.7.100.98",
+          "AWSSDK.SSOOIDC": "3.7.100.98",
+          "Amazon.Extensions.Configuration.SystemsManager": "5.0.2",
+          "Easee.Cos": "2.6.2",
+          "Easee.IoT.DataTypes": "2.5.0"
+        },
+        "runtime": {
+          "LocalObservationSender.dll": {}
+        }
+      },
+      "Amazon.Extensions.Configuration.SystemsManager/5.0.2": {
+        "dependencies": {
+          "AWSSDK.AppConfigData": "3.7.0.23",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.1",
+          "AWSSDK.SimpleSystemsManagement": "3.7.12.9",
+          "Microsoft.Extensions.Configuration": "2.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Extensions.Configuration.SystemsManager.dll": {
+            "assemblyVersion": "5.0.2.0",
+            "fileVersion": "5.0.2.0"
+          }
+        }
+      },
+      "AWSSDK.AppConfigData/3.7.0.23": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.AppConfigData.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.23"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.106.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.106.5"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.1.0"
+          }
+        }
+      },
+      "AWSSDK.IoT/3.7.105.15": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.IoT.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.105.15"
+          }
+        }
+      },
+      "AWSSDK.IotData/3.7.101.75": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.IotData.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.75"
+          }
+        }
+      },
+      "AWSSDK.Kinesis/3.7.102.35": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Kinesis.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.102.35"
+          }
+        }
+      },
+      "AWSSDK.SimpleSystemsManagement/3.7.12.9": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.12.9"
+          }
+        }
+      },
+      "AWSSDK.SSO/3.7.100.98": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.98"
+          }
+        }
+      },
+      "AWSSDK.SSOOIDC/3.7.100.98": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.98"
+          }
+        }
+      },
+      "Easee.Cos/2.6.2": {
+        "dependencies": {
+          "Easee.IoT.DataTypes": "2.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/Cos.dll": {
+            "assemblyVersion": "2.6.2.0",
+            "fileVersion": "2.6.2.0"
+          }
+        }
+      },
+      "Easee.IoT.DataTypes/2.5.0": {
+        "dependencies": {
+          "System.Text.Json": "7.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Easee.IoT.DataTypes.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/2.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18114"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18114"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {},
+      "System.Text.Encodings.Web/7.0.0": {},
+      "System.Text.Json/7.0.1": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.122.56804"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LocalObservationSender/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Extensions.Configuration.SystemsManager/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W1Va+vjiw2lcjw+s4JM+IjULG0naCZe0+dkc/du/SYAh0xIRngBGuVOLxao7TxiTlgQLrXfvjIkMclOoze8LHw==",
+      "path": "amazon.extensions.configuration.systemsmanager/5.0.2",
+      "hashPath": "amazon.extensions.configuration.systemsmanager.5.0.2.nupkg.sha512"
+    },
+    "AWSSDK.AppConfigData/3.7.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uHQycPmRkvtsa8k74zVChOKSavaPJWpvSPzYbeCoqIt79glRAhZXshtcEi4Dq6O4rLVnQQgEdv2tSA/Gs6WfWg==",
+      "path": "awssdk.appconfigdata/3.7.0.23",
+      "hashPath": "awssdk.appconfigdata.3.7.0.23.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.106.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ko+ZIM9HVtisWy6v+sNDmTGfSsMgQT2KxtYHLa3ztpEiN7ta9BiuBmgiNAc1BPSu3xMs4NsBBdt+qMrMKfUB/A==",
+      "path": "awssdk.core/3.7.106.5",
+      "hashPath": "awssdk.core.3.7.106.5.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cm7D75uispA3h/WwMEQVBMmFPPFwRvFQz8fyLwJEB9uqWYfTOMrRTcynMxHnrdoMyQnfCjByRTzHuFgWELmB6Q==",
+      "path": "awssdk.extensions.netcore.setup/3.7.1",
+      "hashPath": "awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512"
+    },
+    "AWSSDK.IoT/3.7.105.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m3mFlb5DqFNg2oMoGlcNW19UIfA3xtFtZmyAvYPlc+L9F6GdScftDa8dpLxdxVj+WbabHT4hVTqzmB05iqOR0w==",
+      "path": "awssdk.iot/3.7.105.15",
+      "hashPath": "awssdk.iot.3.7.105.15.nupkg.sha512"
+    },
+    "AWSSDK.IotData/3.7.101.75": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uIP/g+VQ8MFYp12n/q9hQmze0+8NOlG9isIra9FiAvSegeDHtRCBWcFVPI89mdyB4LsYE9tvndaUb7YEr1uPxA==",
+      "path": "awssdk.iotdata/3.7.101.75",
+      "hashPath": "awssdk.iotdata.3.7.101.75.nupkg.sha512"
+    },
+    "AWSSDK.Kinesis/3.7.102.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IpBniJZd5hpV9GfApxG6QR7wCF5cdoao986mmuDA9+s5umJCb9E35PwJrtrzXkHy8PnKYZznw1F7Ng5rIV6pjA==",
+      "path": "awssdk.kinesis/3.7.102.35",
+      "hashPath": "awssdk.kinesis.3.7.102.35.nupkg.sha512"
+    },
+    "AWSSDK.SimpleSystemsManagement/3.7.12.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0VXvlLPUigbBaGNbuNOLUroQeeM4vV9LZORlLGnJuTJywUT5sVOuG7JKUN4xAtJlbdbXV0cTRxsIGc+3/WJWzg==",
+      "path": "awssdk.simplesystemsmanagement/3.7.12.9",
+      "hashPath": "awssdk.simplesystemsmanagement.3.7.12.9.nupkg.sha512"
+    },
+    "AWSSDK.SSO/3.7.100.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N9OkWIXmDiC62z6JgJTqA0GsxzesuIfcktMPJb0WQGNBf/A+Juzy1+t2L1jFFb4l5tDUgeNviCD5rAj7em7MYg==",
+      "path": "awssdk.sso/3.7.100.98",
+      "hashPath": "awssdk.sso.3.7.100.98.nupkg.sha512"
+    },
+    "AWSSDK.SSOOIDC/3.7.100.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ldtWxErX6rX0NUOZXSKZhgzG7l0Jlce4MaryE2EMvpw6l2mATICJ3ej8PJl1rUfPUSDgNASQbAab6Jj9e+re4A==",
+      "path": "awssdk.ssooidc/3.7.100.98",
+      "hashPath": "awssdk.ssooidc.3.7.100.98.nupkg.sha512"
+    },
+    "Easee.Cos/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-79zyBDOR5RA7PL8Tv/fcmwAJwICU6yE/7UZxtavwZQA6UDk6IqW/8VjwlXEPDK9Ir/1rJCs2fDaE63EFWoV8mQ==",
+      "path": "easee.cos/2.6.2",
+      "hashPath": "easee.cos.2.6.2.nupkg.sha512"
+    },
+    "Easee.IoT.DataTypes/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9SvkgaLngtWzyRMxLzRFyMBwXZyJSWAy2wF5DXeuWhkRM1fPMZdhn+SCsKtQK9iSqzfeT1aZ76s3dNpjKbCUrQ==",
+      "path": "easee.iot.datatypes/2.5.0",
+      "hashPath": "easee.iot.datatypes.2.5.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L51zGiDlJ4dPpKhFnP6grn2AQlZix9SvyEJ+HO7j/C2lyGA+cd6aDLqJTUhbXZGZ9zaa11eHvz14zG9HV24DRA==",
+      "path": "microsoft.extensions.configuration/2.0.2",
+      "hashPath": "microsoft.extensions.configuration.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZIuzorFmrbHqS8xucmLDFl4JtdaexHTpyS0+tdm6pRAB7dLp6ERQloGeUwuREBoz/ciW/Su21mgISCtXH+j1Eg==",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.2",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
+      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+      "path": "system.text.encodings.web/7.0.0",
+      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OtDEmCCiNl8JAduFKZ/r0Sw6XZNHwIicUYy/mXgMDGeOsZLshH37qi3oPRzFYiryVktiMoQLByMGPtRCEMYbeQ==",
+      "path": "system.text.json/7.0.1",
+      "hashPath": "system.text.json.7.0.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "s4MeVnmAR9QDPvquvs1pIbEImpzYSnJ28nEEW7OfvsAiH024P8aHrXKxOpDLpsK1ihISS5h+iTb/9+tHYJTp9A==",
+  "success": true,
+  "projectFilePath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalObservationSender/LocalObservationSender.csproj",
+  "expectedPackageFiles": [
+    "/Users/mortenovrebo/.nuget/packages/amazon.extensions.configuration.systemsmanager/5.0.2/amazon.extensions.configuration.systemsmanager.5.0.2.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.appconfigdata/3.7.0.23/awssdk.appconfigdata.3.7.0.23.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.core/3.7.106.5/awssdk.core.3.7.106.5.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.extensions.netcore.setup/3.7.1/awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.iot/3.7.105.15/awssdk.iot.3.7.105.15.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.iotdata/3.7.101.75/awssdk.iotdata.3.7.101.75.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.kinesis/3.7.102.35/awssdk.kinesis.3.7.102.35.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.simplesystemsmanagement/3.7.12.9/awssdk.simplesystemsmanagement.3.7.12.9.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.sso/3.7.100.98/awssdk.sso.3.7.100.98.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/awssdk.ssooidc/3.7.100.98/awssdk.ssooidc.3.7.100.98.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/easee.cos/2.6.2/easee.cos.2.6.2.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/easee.iot.datatypes/2.5.0/easee.iot.datatypes.2.5.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.extensions.configuration/2.0.2/microsoft.extensions.configuration.2.0.2.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.extensions.configuration.abstractions/2.0.2/microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.extensions.primitives/2.0.0/microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/system.runtime.compilerservices.unsafe/4.4.0/system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/system.text.json/7.0.1/system.text.json.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wOm7L8QwDhQSTqC/e5C9yV6JP9RDDF1QWt0ExdQU6mWTybzXfIeuo4XrwJOLLgv3F/Y2wm33aJ/iSlo8+OFoWg==",
+  "success": true,
+  "projectFilePath": "/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/DeleteUsers/DeleteUsers.csproj",
+  "expectedPackageFiles": [
+    "/Users/mortenovrebo/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/serilog.sinks.console/4.0.0/serilog.sinks.console.4.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

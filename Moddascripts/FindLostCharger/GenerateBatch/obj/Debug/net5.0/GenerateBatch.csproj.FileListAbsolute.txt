@@ -1,0 +1,15 @@
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/bin/Debug/net5.0/GenerateBatch.deps.json
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/bin/Debug/net5.0/GenerateBatch.runtimeconfig.json
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/bin/Debug/net5.0/GenerateBatch.runtimeconfig.dev.json
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/bin/Debug/net5.0/GenerateBatch.dll
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/bin/Debug/net5.0/ref/GenerateBatch.dll
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/bin/Debug/net5.0/GenerateBatch.pdb
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.csproj.AssemblyReference.cache
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.AssemblyInfoInputs.cache
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.AssemblyInfo.cs
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.csproj.CoreCompileInputs.cache
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.dll
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/ref/GenerateBatch.dll
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.pdb
+/Users/mortenovrebo/easee/Moddascripts/FindLostCharger/GenerateBatch/obj/Debug/net5.0/GenerateBatch.genruntimeconfig.cache

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mortenovrebo/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mortenovrebo/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/mortenovrebo/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/mortenovrebo/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/mortenovrebo/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.core/3.7.106.5</PkgAWSSDK_Core>
+    <PkgAWSSDK_SSOOIDC Condition=" '$(PkgAWSSDK_SSOOIDC)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.ssooidc/3.7.100.98</PkgAWSSDK_SSOOIDC>
+    <PkgAWSSDK_SSO Condition=" '$(PkgAWSSDK_SSO)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.sso/3.7.100.98</PkgAWSSDK_SSO>
+    <PkgAWSSDK_SimpleSystemsManagement Condition=" '$(PkgAWSSDK_SimpleSystemsManagement)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.simplesystemsmanagement/3.7.12.9</PkgAWSSDK_SimpleSystemsManagement>
+    <PkgAWSSDK_Kinesis Condition=" '$(PkgAWSSDK_Kinesis)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.kinesis/3.7.102.35</PkgAWSSDK_Kinesis>
+    <PkgAWSSDK_IotData Condition=" '$(PkgAWSSDK_IotData)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.iotdata/3.7.101.75</PkgAWSSDK_IotData>
+    <PkgAWSSDK_IoT Condition=" '$(PkgAWSSDK_IoT)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.iot/3.7.105.15</PkgAWSSDK_IoT>
+    <PkgAWSSDK_AppConfigData Condition=" '$(PkgAWSSDK_AppConfigData)' == '' ">/Users/mortenovrebo/.nuget/packages/awssdk.appconfigdata/3.7.0.23</PkgAWSSDK_AppConfigData>
+  </PropertyGroup>
+</Project>

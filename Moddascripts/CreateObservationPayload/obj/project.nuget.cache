@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2x6N0TuHf+KHVN6Gk4HJdddJuYrwh6DFlWICP7R22NO8UnHHaBkSE7buLOYh+O82qlBdaS+0cKIOjVrB9kg2zw==",
+  "success": true,
+  "projectFilePath": "/Users/mortenovrebo/easee/Moddascripts/CreateObservationPayload/CreateObservationPayload.csproj",
+  "expectedPackageFiles": [
+    "/Users/mortenovrebo/.nuget/packages/easee.cos/2.6.2/easee.cos.2.6.2.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/easee.iot.datatypes/2.5.0/easee.iot.datatypes.2.5.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/mortenovrebo/.nuget/packages/system.text.json/7.0.1/system.text.json.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

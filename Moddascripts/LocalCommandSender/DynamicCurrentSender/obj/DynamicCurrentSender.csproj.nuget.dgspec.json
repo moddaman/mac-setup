@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/DynamicCurrentSender/DynamicCurrentSender.csproj": {}
+  },
+  "projects": {
+    "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/DynamicCurrentSender/DynamicCurrentSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/DynamicCurrentSender/DynamicCurrentSender.csproj",
+        "projectName": "DynamicCurrentSender",
+        "projectPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/DynamicCurrentSender/DynamicCurrentSender.csproj",
+        "packagesPath": "/Users/mortenovrebo/.nuget/packages/",
+        "outputPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/DynamicCurrentSender/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mortenovrebo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/easee/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalCommandSender/LocalCommandSender.csproj": {
+                "projectPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalCommandSender/LocalCommandSender.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalCommandSender/LocalCommandSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalCommandSender/LocalCommandSender.csproj",
+        "projectName": "LocalCommandSender",
+        "projectPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalCommandSender/LocalCommandSender.csproj",
+        "packagesPath": "/Users/mortenovrebo/.nuget/packages/",
+        "outputPath": "/Users/mortenovrebo/easee/Moddascripts/LocalCommandSender/LocalCommandSender/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mortenovrebo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/easee/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.Iot": {
+              "target": "Package",
+              "version": "[3.7.105.15, )"
+            },
+            "AWSSDK.IotData": {
+              "target": "Package",
+              "version": "[3.7.101.75, )"
+            },
+            "AWSSDK.Kinesis": {
+              "target": "Package",
+              "version": "[3.7.102.35, )"
+            },
+            "AWSSDK.SSO": {
+              "target": "Package",
+              "version": "[3.7.100.98, )"
+            },
+            "AWSSDK.SSOOIDC": {
+              "target": "Package",
+              "version": "[3.7.100.98, )"
+            },
+            "Amazon.Extensions.Configuration.SystemsManager": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "ServiceResult": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ServiceResult.ApiExtensions": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

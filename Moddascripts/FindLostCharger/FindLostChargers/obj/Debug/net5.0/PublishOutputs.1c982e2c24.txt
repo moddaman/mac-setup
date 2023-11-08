@@ -1,0 +1,5 @@
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/publish/PartnerCharger.csv
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/publish/TibberCompare.dll
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/publish/TibberCompare.deps.json
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/publish/TibberCompare.runtimeconfig.json
+/Users/mortenovrebo/easee/TibberCheckBinding/TibberCompare/TibberCompare/bin/Debug/net5.0/publish/TibberCompare.pdb
